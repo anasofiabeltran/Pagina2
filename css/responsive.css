@@ -1,0 +1,146 @@
+
+
+
+@media(max-width:1024px){
+
+
+    .hamburger {
+        width: 38px;
+    }
+
+    header .menu{
+        left: 24%;
+    }
+
+    .section1 {
+        height: 101%;
+    }
+
+    .section1--1{
+        margin-bottom: 250%;
+    }
+
+    .sideways-first{
+        top: 738px;
+        left: 124px;
+        transform: rotate(0deg);
+        text-align: center;
+    }
+
+    .sideways-second {
+        transform: rotate(0deg);
+        text-align: center;
+        left: 62px;
+        top: 2270px;
+    }
+
+    .porcents--content-1 p:nth-child(1){
+        margin-top: 42px;
+    }
+
+
+    .content--video {
+        grid-template-columns: 100%;
+        grid-gap: 53px;
+    }
+
+    .video img {
+        height: 93%;
+    }
+
+    .section2 {
+        top: 846px;
+        width: 78%;
+        left: 16%;
+        height:  1116px;
+    }
+
+    .container .menu {
+        display: flex;
+    }
+
+    .section2 h2{
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .section2 h2 span{
+        margin-left: 0;
+    }
+
+    .end-imag-section2 {
+        margin-top: 384x;
+    }
+
+    .container{
+        height: 100%;
+    }
+
+    .section3{
+        place-items: center;
+        grid-template-columns: 100%;
+        height: 744px;
+        top: 1602px;
+    }
+
+    .section3--1{
+        padding: 0;
+        width: 84%;
+        margin-top: -108px;
+    }
+
+    .section3--2 {
+        margin-top: -347px;
+    }
+
+    .section3--2 img{
+        padding: 0;
+        width: 100%;
+    }
+
+    .gallery{
+        grid-template-columns: 100%;
+    }
+    
+}
+
+@media(max-width:768px){
+    .section1--1{
+        margin-bottom: 324%;
+    }
+
+    .porcents--content-1 p:nth-child(1){
+        margin-top: 12px;
+    }
+}
+
+@media(max-width:425px){
+    .section1--1{
+        margin-bottom: 551%;
+    }
+    .porcents {
+        flex-direction: column;
+    }
+
+    .porcents--content-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .porcents--content-2 {
+        width: 100%;
+        margin-left: -11px;
+    }
+}
+
+@media(max-width:375px){
+    .section1--1{
+        margin-bottom: 618%;
+    }
+}
+
+@media(max-width:320px){
+    .section1--1{
+        margin-bottom: 723%;
+    }
+}
